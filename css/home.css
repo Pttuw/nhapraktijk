@@ -1,0 +1,145 @@
+[class*="col-"]{
+  width: 100%;
+}
+@media only screen and (min-width:768px) {
+  [class*="col-"] {
+    float: left;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+}
+* {margin: 0; padding: 0; border: 0; box-sizing: border-box;}
+
+.afbeeldinghome{
+  height: 251px;
+  width: 376px;
+  padding: 10px;
+}
+
+.kleurtitel{
+  color: #d35400;
+}
+
+.fotooverons{
+  display: block;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hrkleur{
+  clear: both;
+  display: block;
+  width: auto;
+  background-color: gray;
+  height: 2px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+header{
+  background-color: #f39c12;
+  text-align: center;
+  color: white;
+  height: 210px;
+}
+
+iframe{
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 450px;
+  width: 90%;
+}
+
+input[type="text"], input[type="email"], textarea, select{
+  display: block;
+  width: 100%;
+  height: 50px;
+  margin: 15px 0px;
+  border-radius: 4px; box-shadow: inset 2px 2px 5px #d35400;
+}
+textarea{
+  height: 150px
+}
+button{
+  background-color: #d35400;
+  color: white;
+  width: 90px;
+  height: 50px;
+  border-radius: 4px; box-shadow: inset 2px 2px 5px black;
+}
+
+body{
+  background-color: white;
+  text-align: center;
+}
+
+footer{
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: #d35400;
+  text-align: center;
+}
+
+li{
+  display: inline-block;
+  padding:12px;
+}
+
+ul{
+  background-color: #d35400;
+  font-weight: bold;
+  text-align: left;
+  text-decoration: none;
+}
+
+hr{
+  clear: both;
+  display: block;
+  width: auto;
+  background-color: black;
+  height: 1px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#ulmain a{
+  text-decoration: none;
+  color: white;
+}
+
+#balkje{
+  background-color: yellow;
+  height:3px;
+}
+#textboxleft{
+  background-color: salmon;
+  height: 2000px;
+  text-align: left;
+  padding: 25px;
+}
+
+#textboxright{
+  background-color: white;
+  text-align: left;
+  padding: 25px;
+}
+
+#afbeeldingoverons{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
