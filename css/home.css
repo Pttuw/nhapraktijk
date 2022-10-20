@@ -8,10 +8,10 @@
   }
 
 .col-1 {width: 8.33%;}
-.col-2 {width: 16.66%; background: black; background-color: salmon;}
+.col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
 .col-4 {width: 33.33%;}
-.col-5 {width: 41.66%; background: black; background-color: white;}
+.col-5 {width: 41.66%;}
 .col-6 {width: 50%;}
 .col-7 {width: 58.33%;}
 .col-8 {width: 66.66%;}
@@ -23,9 +23,10 @@
 * {margin: 0; padding: 0; border: 0; box-sizing: border-box;}
 
 .afbeeldinghome{
-  height: 251px;
-  width: 376px;
-  padding: 10px;
+margin-left: auto;
+margin-right: auto;
+padding: 10px;
+width: 40%
 }
 
 .kleurtitel{
@@ -127,7 +128,7 @@ hr{
 }
 #textboxleft{
   background-color: salmon;
-  height: 2000px;
+  height: 1100px;
   text-align: left;
   padding: 25px;
 }
