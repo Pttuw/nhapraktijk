@@ -128,13 +128,14 @@ hr{
 }
 #textboxleft{
   background-color: salmon;
-  height: 1100px;
+  height: 2000px;
   text-align: left;
   padding: 25px;
 }
 
 #textboxright{
   background-color: white;
+  height: 2000px;
   text-align: left;
   padding: 25px;
 }
